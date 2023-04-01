@@ -18,6 +18,7 @@
     "https://deno.land/x/http_utils@1.0.0-beta.14/deps.ts": "b9618bd45a7d93f6c397b7e15b8a1dfd45457c3d185217bc24fb6c48b07ebf19",
     "https://deno.land/x/http_utils@1.0.0-beta.14/header.ts": "37e272988145fde8df876456434f5cae6beaefedde41b825502a3afe1b24d7a5",
     "https://deno.land/x/http_utils@1.0.0-beta.14/response.ts": "f8b74d04e4f227d7e31ac96b1f3b916238f7b5c7615a7e475430fe9c45c8728e",
+    "https://deno.land/x/http_utils@1.0.0-beta.15/message.ts": "87ee02ce5945875bd0aff4f5d66c6c9020f82d53c69874a34d8021222468c90c",
     "https://deno.land/x/prelude_js@1.0.0-beta.2/deps.ts": "8a8002b53623cfbf38b95ec23802f0580634546f3cc65875251ba80e28fe64aa",
     "https://deno.land/x/prelude_js@1.0.0-beta.2/mod.ts": "b9795ef8d664f0d061e80c0788f7b13370f6cb6be7aaa4386f3ae10bc3cc7e96",
     "https://deno.land/x/prelude_js@1.0.0-beta.2/multiary.ts": "afd3991456cea084bc2f995bd56b780c358ceff9c1f292ab7dfa5496af5172a8",

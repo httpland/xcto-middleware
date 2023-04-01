@@ -1,8 +1,8 @@
 // Copyright 2023-latest the httpland authors. All rights reserved. MIT license.
 // This module is browser compatible.
 
-import { Handler, Middleware } from "./deps.ts";
-import { withXcto } from "./transform.ts";
+import { Handler, Middleware, withHeader } from "./deps.ts";
+import { Directive, Header } from "./constants.ts";
 
 /** Create `X-Content-Type-Options` header middleware.
  *
@@ -38,5 +38,7 @@ export async function xctoMiddleware(
 ): Promise<Response> {
   const response = await next(request);
 
-  return withXcto(response);
+  if (response.headers.has(Header.XContentTypeOptions)) return response;
+
+  return withHeader(response, Header.XContentTypeOptions, Directive.Nosniff);
 }

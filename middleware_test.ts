@@ -31,4 +31,16 @@ describe("xctoMiddleware", () => {
       ),
     );
   });
+
+  it("should return same response if the header include xcto yet", async () => {
+    const initResponse = new Response(null, {
+      headers: { [Header.XContentTypeOptions]: "" },
+    });
+    const response = await xctoMiddleware(
+      new Request("test:"),
+      () => initResponse,
+    );
+
+    assert(response === initResponse);
+  });
 });
