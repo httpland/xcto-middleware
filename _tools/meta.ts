@@ -19,7 +19,7 @@ export const makeOptions = (version: string): BuildOptions => ({
       "header",
       "xcto",
       "x-content-type-options",
-      "nosniiff",
+      "nosniff",
       "security",
       "fetch-api",
     ],
