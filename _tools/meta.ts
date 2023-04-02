@@ -44,5 +44,10 @@ export const makeOptions = (version: string): BuildOptions => ({
       name: "@httpland/http-middleware",
       version: "1.0.0",
     },
+    "https://deno.land/x/http_utils@1.0.0/message.ts": {
+      name: "@httpland/http-utils",
+      version: "1.0.0",
+      subPath: "message.js",
+    },
   },
 });
