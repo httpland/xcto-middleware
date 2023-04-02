@@ -3,7 +3,7 @@
 [![deno land](http://img.shields.io/badge/available%20on-deno.land/x-lightgrey.svg?logo=deno)](https://deno.land/x/xcto_middleware)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/xcto_middleware/mod.ts)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/httpland/xcto-middleware)](https://github.com/httpland/xcto-middleware/releases)
-[![codecov](https://codecov.io/github/httpland/xcto-middleware/branch/main/graph/badge.svg?token=MNFZEQH8OK)](https://codecov.io/gh/httpland/xcto-middleware)
+[![codecov](https://codecov.io/github/httpland/xcto-middleware/branch/main/graph/badge.svg)](https://codecov.io/gh/httpland/xcto-middleware)
 [![GitHub](https://img.shields.io/github/license/httpland/xcto-middleware)](https://github.com/httpland/xcto-middleware/blob/main/LICENSE)
 
 [![test](https://github.com/httpland/xcto-middleware/actions/workflows/test.yaml/badge.svg)](https://github.com/httpland/xcto-middleware/actions/workflows/test.yaml)
